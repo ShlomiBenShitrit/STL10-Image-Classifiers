@@ -7,13 +7,9 @@ This project implements a complete deep learning pipeline for classifying images
 Follow these steps in order to easily run the project from start to finish:
 
 1. **Get the Data**: Download the STL-10 dataset (~2.5GB) and prepare DataLoaders.
-   ```bash
-   python get_data.py
-   ```
+
 2. **Visualize (Optional)**: Generate augmentation samples and class grids. Results are saved in `plots and outputs/`.
-   ```bash
-   python plot_data_sample.py
-   ```
+
 3. **Configure Model**: Open `config.py` and set your desired `MODEL_TYPE`. Available options:
    * `'logistic'`: Basic Logistic Regression.
    * `'fc'`: Fully Connected (FC) Neural Network (MLP).
@@ -22,13 +18,8 @@ Follow these steps in order to easily run the project from start to finish:
    * `'mobilenet_learned'`: MobileNetV2 with full fine-tuning (all weights are updated).
 
 4. **Train**: Run the training script. The best model and curves will be saved in `plots and outputs/`.
-   ```bash
-   python train.py
-   ```
+
 5. **Evaluate**: Test the model on unseen data. This generates a classification report and a confusion matrix in `plots and outputs/`.
-   ```bash
-   python test.py
-   ```
 
 ## 🛠️ Installation & Setup
 
