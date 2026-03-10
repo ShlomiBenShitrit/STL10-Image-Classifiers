@@ -6,9 +6,9 @@ This project implements a complete deep learning pipeline for classifying images
 
 Follow these steps in order to easily run the project from start to finish:
 
-1. **Get the Data**: Download the STL-10 dataset (~2.5GB) and prepare DataLoaders.
+1. **Get the Data**: Download the STL-10 dataset (~2.5GB) and prepare DataLoaders using get_data.py.
 
-2. **Visualize (Optional)**: Generate augmentation samples and class grids. Results are saved in `plots and outputs/`.
+2. **Visualize (Optional)**: Generate augmentation samples and class grids. Results are saved in `plots and outputs`.
 
 3. **Configure Model**: Open `config.py` and set your desired `MODEL_TYPE`. Available options:
    * `'logistic'`: Basic Logistic Regression.
@@ -54,4 +54,4 @@ pip install -r requirements.txt
 * `test.py`: Evaluation script; loads weights and generates metrics.
 * `plot_data_sample.py`: Tool for inspecting dataset and augmentations.
 * `model_*.py` & `mobilenet.py`: Architecture definitions for all classifiers.
-* `plots and outputs/`: (Auto-generated) Contains saved models (.pth) and performance plots (.png).
+* `plots and outputs`: (Auto-generated) Contains saved models (.pth) and performance plots (.png).
