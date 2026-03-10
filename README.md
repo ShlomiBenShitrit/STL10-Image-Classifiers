@@ -17,9 +17,9 @@ Follow these steps in order to easily run the project from start to finish:
    * `'mobilenet_fixed'`: MobileNetV2 as a fixed feature extractor (only the head is trained).
    * `'mobilenet_learned'`: MobileNetV2 with full fine-tuning (all weights are updated).
 
-4. **Train**: Run the training script. The best model and curves will be saved in `plots and outputs/`.
+4. **Train**: Run the training script train.py , The best model and curves will be saved in `plots and outputs`.
 
-5. **Evaluate**: Test the model on unseen data. This generates a classification report and a confusion matrix in `plots and outputs/`.
+5. **Evaluate**: Test the model on unseen data using test.py , This generates a classification report and a confusion matrix in `plots and outputs`.
 
 ## 🛠️ Installation & Setup
 
